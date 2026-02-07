@@ -7,6 +7,7 @@ import Carnivore from './components/Carnivore'
 import Herpetarium from './components/Herpetarium'
 import Insectarium from './components/Insectarium'
 import JOTA from './components/JOTA'
+import PenguinPuffin from './components/PenguinPuffin'
 import PrimateHouse from './components/PrimateHouse'
 import RiversEdge from './components/RiversEdge'
 import SeaLion from './components/SeaLion'
@@ -24,6 +25,7 @@ function App() {
           <Route path="/Herpetarium" element={<Herpetarium />} />
           <Route path="/Insectarium" element={<Insectarium />} />
           <Route path="/JOTA" element={<JOTA />} />
+          <Route path="/PenguinPuffin" element={<PenguinPuffin />} />
           <Route path="/PrimateHouse" element={<PrimateHouse />} />
           <Route path="/RiversEdge" element={<RiversEdge />} />
           <Route path="/SeaLion" element={<SeaLion />} />
