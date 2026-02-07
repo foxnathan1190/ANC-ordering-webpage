@@ -1,6 +1,7 @@
 import './App.css'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import Home from './components/Home'
+import About from './components/About'
 import Antelope from './components/Antelope'
 import BirdHouse from './components/BirdHouse'
 import Carnivore from './components/Carnivore'
@@ -19,6 +20,7 @@ function App() {
       <Router> {/* Route set up */}
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/About" element={<About />} />
           <Route path="/Antelope" element={<Antelope />} />
           <Route path="/BirdHouse" element={<BirdHouse />} />
           <Route path="/Carnivore" element={<Carnivore />} />

@@ -13,7 +13,7 @@ const NavigationMenu = ({ isLoggedInAdmin }) => {
                 <Link to="/">Home</Link>
             </li>
             <li className="navLink">
-                <Link to="/about">About</Link>
+                <Link to="/About">About ANC</Link>
             </li>
             <li className="navLink" style={{ float: "right" }}>
                 <Link to="/" onClick={() => logout(currentUser.id)}>Log Out</Link> {/* Logout function called on click. */}

@@ -1,11 +1,14 @@
+import Footer from '../common/Footer';
+import Header from '../common/Header';
 import NavigationMenu from '../common/NavigationMenu';
 import { Link } from 'react-router';
 
 const Home = () => {
   return (
     <div className="home">
+      <Header />
       <NavigationMenu />
-      <h1>Welcome to the Animal Nutrition Center Ordering System</h1>
+      <h2>Welcome to the Animal Nutrition Center Ordering System</h2>
       <p>Please choose your department</p>
       <ul>
         <li><Link to="/Antelope">Antelope</Link></li>
@@ -19,6 +22,7 @@ const Home = () => {
         <li><Link to="/RiversEdge">River's Edge</Link></li>
         <li><Link to="/SeaLion">Sea Lion</Link></li>
       </ul>
+      <Footer />
     </div>
   )
 }
